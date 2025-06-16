@@ -63,7 +63,7 @@ class TransformerWithDecoder(nn.Module):
 file_path = 'data/FC/FC3_I88.csv'
 w = 120
 length_size = 120
-e = 1
+e = 600
 batch_size = 256
 
 os.makedirs('checkpoint', exist_ok=True)
