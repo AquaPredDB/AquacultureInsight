@@ -149,12 +149,12 @@ class Autoformer(nn.Module):
         return x
 
 
-# 设置参数     Best hyperparameters:  {'d_model': 16, 'nhead': 4, 'd_ff': 128, 'e_layers': 1, 'factor': 10, 'lr': 0.0029674225827492095}
+# 设置参数     
 file_path = 'data\\FC\\FC3_I5.csv'
 w = 30  # 模型输入序列长度
 length_size = 30  # 预测结果的序列长度
-e = 80  # 迭代次数
-batch_size = 128  # 批量大小
+e = 200  # 迭代次数
+batch_size = 256  # 批量大小
 
 
 # 读取数据
