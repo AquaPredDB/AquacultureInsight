@@ -53,7 +53,7 @@ class Robformer(nn.Module):
 file_path = 'data\\FC\\FC3_I5.csv'
 w = 30  # 模型输入序列长度
 length_size = 30  # 预测结果的序列长度
-e = 20  # 迭代次数
+e = 200  # 迭代次数
 batch_size = 256  # 批量大小
 
 # 读取数据
