@@ -120,9 +120,9 @@ class iTransformer(nn.Module):
 
 # 参数设置和数据读取保持不变
 file_path = 'data/FC/FC3_I5.csv'
-w = 30
-length_size = 30
-e = 40
+w = 120
+length_size = 120
+e = 200
 batch_size = 256
 
 data = pd.read_csv(file_path)
