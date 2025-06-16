@@ -51,9 +51,9 @@ class TCN_GRU_Model(nn.Module):
 
 # 设置参数
 file_path = 'data\FC\FC3_I5.csv'
-w = 30  # 模型输入序列长度
-length_size = 30  # 预测结果的序列长度
-e = 40  # 迭代次数 (增加迭代次数)
+w = 60  # 模型输入序列长度
+length_size = 60  # 预测结果的序列长度
+e = 400  # 迭代次数 (增加迭代次数)
 batch_size = 256  # 批量大小
 
 data = pd.read_csv(file_path)
