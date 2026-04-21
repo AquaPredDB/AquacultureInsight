@@ -10,7 +10,7 @@ if __name__ == '__main__':
     model.train(data='dataset/data.yaml',
                 cache=False,
                 imgsz=640,
-                epochs=300,
+                epochs=200,
                 batch=4, 
                 workers=4, 
                 device='0,1', 
